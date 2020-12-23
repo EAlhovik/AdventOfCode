@@ -1,0 +1,116 @@
+[Advent of Code](/)
+===================
+
+*   [\[About\]](/2020/about)
+*   [\[Events\]](/2020/events)
+*   [\[Shop\]](https://teespring.com/stores/advent-of-code)
+*   [\[Settings\]](/2020/settings)
+*   [\[Log Out\]](/2020/auth/logout)
+
+EAlhovik 18\*
+
+   $year=[2020](/2020);
+=======================
+
+*   [\[Calendar\]](/2020)
+*   [\[AoC++\]](/2020/support)
+*   [\[Sponsors\]](/2020/sponsors)
+*   [\[Leaderboard\]](/2020/leaderboard)
+*   [\[Stats\]](/2020/stats)
+
+Our [sponsors](/2020/sponsors) help make Advent of Code possible:
+
+[GitHub](https://github.com/) - We're hiring engineers to make GitHub fast. Interested? Email fast@github.com with details of exceptional performance work you've done in the past.
+
+window.addEventListener('click', function(e,s,r){if(e.target.nodeName==='CODE'&&e.detail===3){s=window.getSelection();s.removeAllRanges();r=document.createRange();r.selectNodeContents(e.target);s.addRange(r);}});
+
+\--- Day 3: Toboggan Trajectory ---
+-----------------------------------
+
+With the toboggan login problems resolved, you set off toward the airport. While travel by toboggan might be easy, it's certainly not safe: there's very minimal steering and the area is covered in trees. You'll need to see which angles will take you near the fewest trees.
+
+Due to the local geology, trees in this area only grow on exact integer coordinates in a grid. You make a map (your puzzle input) of the open squares (`.`) and trees (`#`) you can see. For example:
+
+    ..##.......
+    #...#...#..
+    .#....#..#.
+    ..#.#...#.#
+    .#...##..#.
+    ..#.##.....
+    .#.#.#....#
+    .#........#
+    #.##...#...
+    #...##....#
+    .#..#...#.#
+    
+
+These aren't the only trees, though; due to something you read about once involving arboreal genetics and biome stability, the same pattern repeats to the right many times:
+
+    ..##.........##.........##.........##.........##.........##.......  --->
+    #...#...#..#...#...#..#...#...#..#...#...#..#...#...#..#...#...#..
+    .#....#..#..#....#..#..#....#..#..#....#..#..#....#..#..#....#..#.
+    ..#.#...#.#..#.#...#.#..#.#...#.#..#.#...#.#..#.#...#.#..#.#...#.#
+    .#...##..#..#...##..#..#...##..#..#...##..#..#...##..#..#...##..#.
+    ..#.##.......#.##.......#.##.......#.##.......#.##.......#.##.....  --->
+    .#.#.#....#.#.#.#....#.#.#.#....#.#.#.#....#.#.#.#....#.#.#.#....#
+    .#........#.#........#.#........#.#........#.#........#.#........#
+    #.##...#...#.##...#...#.##...#...#.##...#...#.##...#...#.##...#...
+    #...##....##...##....##...##....##...##....##...##....##...##....#
+    .#..#...#.#.#..#...#.#.#..#...#.#.#..#...#.#.#..#...#.#.#..#...#.#  --->
+    
+
+You start on the open square (`.`) in the top-left corner and need to reach the bottom (below the bottom-most row on your map).
+
+The toboggan can only follow a few specific slopes (you opted for a cheaper model that prefers rational numbers); start by _counting all the trees_ you would encounter for the slope _right 3, down 1_:
+
+From your starting position at the top-left, check the position that is right 3 and down 1. Then, check the position that is right 3 and down 1 from there, and so on until you go past the bottom of the map.
+
+The locations you'd check in the above example are marked here with `_O_` where there was an open square and `_X_` where there was a tree:
+
+    ..##.........##.........##.........##.........##.........##.......  --->
+    #..O#...#..#...#...#..#...#...#..#...#...#..#...#...#..#...#...#..
+    .#....X..#..#....#..#..#....#..#..#....#..#..#....#..#..#....#..#.
+    ..#.#...#O#..#.#...#.#..#.#...#.#..#.#...#.#..#.#...#.#..#.#...#.#
+    .#...##..#..X...##..#..#...##..#..#...##..#..#...##..#..#...##..#.
+    ..#.##.......#.X#.......#.##.......#.##.......#.##.......#.##.....  --->
+    .#.#.#....#.#.#.#.O..#.#.#.#....#.#.#.#....#.#.#.#....#.#.#.#....#
+    .#........#.#........X.#........#.#........#.#........#.#........#
+    #.##...#...#.##...#...#.X#...#...#.##...#...#.##...#...#.##...#...
+    #...##....##...##....##...#X....##...##....##...##....##...##....#
+    .#..#...#.#.#..#...#.#.#..#...X.#.#..#...#.#.#..#...#.#.#..#...#.#  --->
+    
+
+In this example, traversing the map using this slope would cause you to encounter `_7_` trees.
+
+Starting at the top-left corner of your map and following a slope of right 3 and down 1, _how many trees would you encounter?_
+
+Your puzzle answer was `228`.
+
+\--- Part Two ---
+-----------------
+
+Time to check the rest of the slopes - you need to minimize the probability of a sudden arboreal stop, after all.
+
+Determine the number of trees you would encounter if, for each of the following slopes, you start at the top-left corner and traverse the map all the way to the bottom:
+
+*   Right 1, down 1.
+*   Right 3, down 1. (This is the slope you already checked.)
+*   Right 5, down 1.
+*   Right 7, down 1.
+*   Right 1, down 2.
+
+In the above example, these slopes would find `2`, `7`, `3`, `4`, and `2` tree(s) respectively; multiplied together, these produce the answer `_336_`.
+
+_What do you get if you multiply together the number of trees encountered on each of the listed slopes?_
+
+Your puzzle answer was `6818112000`.
+
+Both parts of this puzzle are complete! They provide two gold stars: \*\*
+
+At this point, you should [return to your Advent calendar](/2020) and try another puzzle.
+
+If you still want to see it, you can [get your puzzle input](3/input).
+
+You can also \[Shareon [Twitter](https://twitter.com/intent/tweet?text=I%27ve+completed+%22Toboggan+Trajectory%22+%2D+Day+3+%2D+Advent+of+Code+2020&url=https%3A%2F%2Fadventofcode%2Ecom%2F2020%2Fday%2F3&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)\] this puzzle.
+
+(function(i,s,o,g,r,a,m){i\['GoogleAnalyticsObject'\]=r;i\[r\]=i\[r\]||function(){ (i\[r\].q=i\[r\].q||\[\]).push(arguments)},i\[r\].l=1\*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)\[0\];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-69522494-1', 'auto'); ga('set', 'anonymizeIp', true); ga('send', 'pageview');
