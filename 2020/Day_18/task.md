@@ -64,9 +64,6 @@ Here are a few more examples:
 
 Before you can help with the homework, you need to understand it yourself. _Evaluate the expression on each line of the homework; what is the sum of the resulting values?_
 
-Your puzzle answer was `5019432542701`.
-
-The first half of this puzzle is complete! It provides one gold star: \*
 
 \--- Part Two ---
 -----------------
@@ -94,11 +91,3 @@ Here are the other examples from above:
 *   `((2 + 4 * 9) * (6 + 9 * 8 + 6) + 6) + 2 + 4 * 2` becomes _`23340`_.
 
 _What do you get if you add up the results of evaluating the homework problems using these new rules?_
-
-Answer:  
-
-Although it hasn't changed, you can still [get your puzzle input](18/input).
-
-You can also \[Shareon [Twitter](https://twitter.com/intent/tweet?text=I%27ve+completed+Part+One+of+%22Operation+Order%22+%2D+Day+18+%2D+Advent+of+Code+2020&url=https%3A%2F%2Fadventofcode%2Ecom%2F2020%2Fday%2F18&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)\] this puzzle.
-
-(function(i,s,o,g,r,a,m){i\['GoogleAnalyticsObject'\]=r;i\[r\]=i\[r\]||function(){ (i\[r\].q=i\[r\].q||\[\]).push(arguments)},i\[r\].l=1\*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)\[0\];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-69522494-1', 'auto'); ga('set', 'anonymizeIp', true); ga('send', 'pageview');

@@ -83,10 +83,6 @@ Your goal is to determine _the number of messages that completely match rule `0`
 
 _How many messages completely match rule `0`?_
 
-Your puzzle answer was `136`.
-
-The first half of this puzzle is complete! It provides one gold star: \*
-
 \--- Part Two ---
 -----------------
 
@@ -172,10 +168,3 @@ However, after updating rules `8` and `11`, a total of _`12`_ messages match:
 
 _After updating rules `8` and `11`, how many messages completely match rule `0`?_
 
-Answer:  
-
-Although it hasn't changed, you can still [get your puzzle input](19/input).
-
-You can also \[Shareon [Twitter](https://twitter.com/intent/tweet?text=I%27ve+completed+Part+One+of+%22Monster+Messages%22+%2D+Day+19+%2D+Advent+of+Code+2020&url=https%3A%2F%2Fadventofcode%2Ecom%2F2020%2Fday%2F19&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)\] this puzzle.
-
-(function(i,s,o,g,r,a,m){i\['GoogleAnalyticsObject'\]=r;i\[r\]=i\[r\]||function(){ (i\[r\].q=i\[r\].q||\[\]).push(arguments)},i\[r\].l=1\*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)\[0\];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-69522494-1', 'auto'); ga('set', 'anonymizeIp', true); ga('send', 'pageview');

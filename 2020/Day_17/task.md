@@ -173,7 +173,6 @@ After the full six-cycle boot process completes, _`112`_ cubes are left in the _
 
 Starting with your given initial configuration, simulate six cycles. _How many cubes are left in the active state after the sixth cycle?_
 
-Your puzzle answer was `209`.
 
 \--- Part Two ---
 -----------------
@@ -428,14 +427,3 @@ After the full six-cycle boot process completes, _`848`_ cubes are left in the _
 
 Starting with your given initial configuration, simulate six cycles in a 4-dimensional space. _How many cubes are left in the active state after the sixth cycle?_
 
-Your puzzle answer was `1492`.
-
-Both parts of this puzzle are complete! They provide two gold stars: \*\*
-
-At this point, you should [return to your Advent calendar](/2020) and try another puzzle.
-
-If you still want to see it, you can [get your puzzle input](17/input).
-
-You can also \[Shareon [Twitter](https://twitter.com/intent/tweet?text=I%27ve+completed+%22Conway+Cubes%22+%2D+Day+17+%2D+Advent+of+Code+2020&url=https%3A%2F%2Fadventofcode%2Ecom%2F2020%2Fday%2F17&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)\] this puzzle.
-
-(function(i,s,o,g,r,a,m){i\['GoogleAnalyticsObject'\]=r;i\[r\]=i\[r\]||function(){ (i\[r\].q=i\[r\].q||\[\]).push(arguments)},i\[r\].l=1\*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)\[0\];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-69522494-1', 'auto'); ga('set', 'anonymizeIp', true); ga('send', 'pageview');

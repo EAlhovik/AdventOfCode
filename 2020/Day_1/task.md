@@ -53,7 +53,6 @@ In this list, the two entries that sum to `2020` are `1721` and `299`. Multiplyi
 
 Of course, your expense report is much larger. _Find the two entries that sum to `2020`; what do you get if you multiply them together?_
 
-Your puzzle answer was `1020099`.
 
 \--- Part Two ---
 -----------------
@@ -64,14 +63,3 @@ Using the above example again, the three entries that sum to `2020` are `979`, `
 
 In your expense report, _what is the product of the three entries that sum to `2020`?_
 
-Your puzzle answer was `49214880`.
-
-Both parts of this puzzle are complete! They provide two gold stars: \*\*
-
-At this point, you should [return to your Advent calendar](/2020) and try another puzzle.
-
-If you still want to see it, you can [get your puzzle input](1/input).
-
-You can also \[Shareon [Twitter](https://twitter.com/intent/tweet?text=I%27ve+completed+%22Report+Repair%22+%2D+Day+1+%2D+Advent+of+Code+2020&url=https%3A%2F%2Fadventofcode%2Ecom%2F2020%2Fday%2F1&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)\] this puzzle.
-
-(function(i,s,o,g,r,a,m){i\['GoogleAnalyticsObject'\]=r;i\[r\]=i\[r\]||function(){ (i\[r\].q=i\[r\].q||\[\]).push(arguments)},i\[r\].l=1\*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)\[0\];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-69522494-1', 'auto'); ga('set', 'anonymizeIp', true); ga('send', 'pageview');

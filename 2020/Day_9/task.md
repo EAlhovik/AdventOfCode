@@ -76,9 +76,6 @@ In this example, after the 5-number preamble, almost every number is the sum of 
 
 The first step of attacking the weakness in the XMAS data is to find the first number in the list (after the preamble) which is _not_ the sum of two of the 25 numbers before it. _What is the first number that does not have this property?_
 
-Your puzzle answer was `15690279`.
-
-The first half of this puzzle is complete! It provides one gold star: \*
 
 \--- Part Two ---
 -----------------
@@ -114,11 +111,3 @@ In this list, adding up all of the numbers from `15` through `40` produces the i
 To find the _encryption weakness_, add together the _smallest_ and _largest_ number in this contiguous range; in this example, these are `15` and `47`, producing _`62`_.
 
 _What is the encryption weakness in your XMAS-encrypted list of numbers?_
-
-Answer:  
-
-Although it hasn't changed, you can still [get your puzzle input](9/input).
-
-You can also \[Shareon [Twitter](https://twitter.com/intent/tweet?text=I%27ve+completed+Part+One+of+%22Encoding+Error%22+%2D+Day+9+%2D+Advent+of+Code+2020&url=https%3A%2F%2Fadventofcode%2Ecom%2F2020%2Fday%2F9&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)\] this puzzle.
-
-(function(i,s,o,g,r,a,m){i\['GoogleAnalyticsObject'\]=r;i\[r\]=i\[r\]||function(){ (i\[r\].q=i\[r\].q||\[\]).push(arguments)},i\[r\].l=1\*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)\[0\];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-69522494-1', 'auto'); ga('set', 'anonymizeIp', true); ga('send', 'pageview');

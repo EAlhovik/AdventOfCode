@@ -59,7 +59,6 @@ So, in this example, the number of bag colors that can eventually contain at lea
 
 _How many bag colors can eventually contain at least one `shiny gold` bag?_ (The list of rules is quite long; make sure you get all of it.)
 
-Your puzzle answer was `128`.
 
 \--- Part Two ---
 -----------------
@@ -91,15 +90,3 @@ Here's another example:
 In this example, a single `shiny gold` bag must contain `_126_` other bags.
 
 _How many individual bags are required inside your single `shiny gold` bag?_
-
-Your puzzle answer was `20189`.
-
-Both parts of this puzzle are complete! They provide two gold stars: \*\*
-
-At this point, you should [return to your Advent calendar](/2020) and try another puzzle.
-
-If you still want to see it, you can [get your puzzle input](7/input).
-
-You can also \[Shareon [Twitter](https://twitter.com/intent/tweet?text=I%27ve+completed+%22Handy+Haversacks%22+%2D+Day+7+%2D+Advent+of+Code+2020&url=https%3A%2F%2Fadventofcode%2Ecom%2F2020%2Fday%2F7&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)\] this puzzle.
-
-(function(i,s,o,g,r,a,m){i\['GoogleAnalyticsObject'\]=r;i\[r\]=i\[r\]||function(){ (i\[r\].q=i\[r\].q||\[\]).push(arguments)},i\[r\].l=1\*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)\[0\];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-69522494-1', 'auto'); ga('set', 'anonymizeIp', true); ga('send', 'pageview');

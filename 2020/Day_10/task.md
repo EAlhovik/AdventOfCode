@@ -112,9 +112,6 @@ In this larger example, in a chain that uses all of the adapters, there are _`22
 
 Find a chain that uses all of your adapters to connect the charging outlet to your device's built-in adapter and count the joltage differences between the charging outlet, the adapters, and your device. _What is the number of 1-jolt differences multiplied by the number of 3-jolt differences?_
 
-Your puzzle answer was `2516`.
-
-The first half of this puzzle is complete! It provides one gold star: \*
 
 \--- Part Two ---
 -----------------
@@ -173,11 +170,3 @@ In total, this set of adapters can connect the charging outlet to your device in
 You glance back down at your bag and try to remember why you brought so many adapters; there must be _more than a trillion_ valid ways to arrange them! Surely, there must be an efficient way to count the arrangements.
 
 _What is the total number of distinct ways you can arrange the adapters to connect the charging outlet to your device?_
-
-Answer:  
-
-Although it hasn't changed, you can still [get your puzzle input](10/input).
-
-You can also \[Shareon [Twitter](https://twitter.com/intent/tweet?text=I%27ve+completed+Part+One+of+%22Adapter+Array%22+%2D+Day+10+%2D+Advent+of+Code+2020&url=https%3A%2F%2Fadventofcode%2Ecom%2F2020%2Fday%2F10&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)\] this puzzle.
-
-(function(i,s,o,g,r,a,m){i\['GoogleAnalyticsObject'\]=r;i\[r\]=i\[r\]||function(){ (i\[r\].q=i\[r\].q||\[\]).push(arguments)},i\[r\].l=1\*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)\[0\];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-69522494-1', 'auto'); ga('set', 'anonymizeIp', true); ga('send', 'pageview');

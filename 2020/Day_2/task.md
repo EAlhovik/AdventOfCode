@@ -48,7 +48,6 @@ In the above example, `_2_` passwords are valid. The middle password, `cdefg`, i
 
 _How many passwords are valid_ according to their policies?
 
-Your puzzle answer was `469`.
 
 \--- Part Two ---
 -----------------
@@ -66,15 +65,3 @@ Given the same example list from above:
 *   `2-9 c: c_c_cccccc_c_` is _invalid_: both position `2` and position `9` contain `c`.
 
 _How many passwords are valid_ according to the new interpretation of the policies?
-
-Your puzzle answer was `267`.
-
-Both parts of this puzzle are complete! They provide two gold stars: \*\*
-
-At this point, you should [return to your Advent calendar](/2020) and try another puzzle.
-
-If you still want to see it, you can [get your puzzle input](2/input).
-
-You can also \[Shareon [Twitter](https://twitter.com/intent/tweet?text=I%27ve+completed+%22Password+Philosophy%22+%2D+Day+2+%2D+Advent+of+Code+2020&url=https%3A%2F%2Fadventofcode%2Ecom%2F2020%2Fday%2F2&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)\] this puzzle.
-
-(function(i,s,o,g,r,a,m){i\['GoogleAnalyticsObject'\]=r;i\[r\]=i\[r\]||function(){ (i\[r\].q=i\[r\].q||\[\]).push(arguments)},i\[r\].l=1\*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)\[0\];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-69522494-1', 'auto'); ga('set', 'anonymizeIp', true); ga('send', 'pageview');

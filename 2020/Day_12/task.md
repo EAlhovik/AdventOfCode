@@ -64,9 +64,6 @@ At the end of these instructions, the ship's [Manhattan distance](https://en.wik
 
 Figure out where the navigation instructions lead. _What is the Manhattan distance between that location and the ship's starting position?_
 
-Your puzzle answer was `1565`.
-
-The first half of this puzzle is complete! It provides one gold star: \*
 
 \--- Part Two ---
 -----------------
@@ -96,11 +93,3 @@ For example, using the same instructions as above:
 After these operations, the ship's Manhattan distance from its starting position is `214 + 72` = _`286`_.
 
 Figure out where the navigation instructions actually lead. _What is the Manhattan distance between that location and the ship's starting position?_
-
-Answer:  
-
-Although it hasn't changed, you can still [get your puzzle input](12/input).
-
-You can also \[Shareon [Twitter](https://twitter.com/intent/tweet?text=I%27ve+completed+Part+One+of+%22Rain+Risk%22+%2D+Day+12+%2D+Advent+of+Code+2020&url=https%3A%2F%2Fadventofcode%2Ecom%2F2020%2Fday%2F12&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)\] this puzzle.
-
-(function(i,s,o,g,r,a,m){i\['GoogleAnalyticsObject'\]=r;i\[r\]=i\[r\]||function(){ (i\[r\].q=i\[r\].q||\[\]).push(arguments)},i\[r\].l=1\*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)\[0\];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-69522494-1', 'auto'); ga('set', 'anonymizeIp', true); ga('send', 'pageview');

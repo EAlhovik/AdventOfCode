@@ -66,7 +66,6 @@ Here are a few more examples:
 
 Given your starting numbers, _what will be the `2020`th number spoken?_
 
-Your puzzle answer was `403`.
 
 \--- Part Two ---
 -----------------
@@ -83,14 +82,3 @@ Impressed, the Elves issue you a challenge: determine the `30000000`th number sp
 
 Given your starting numbers, _what will be the `30000000`th number spoken?_
 
-Your puzzle answer was `6823`.
-
-Both parts of this puzzle are complete! They provide two gold stars: \*\*
-
-At this point, you should [return to your Advent calendar](/2020) and try another puzzle.
-
-Your puzzle input was `16,12,1,0,15,7,11`.
-
-You can also \[Shareon [Twitter](https://twitter.com/intent/tweet?text=I%27ve+completed+%22Rambunctious+Recitation%22+%2D+Day+15+%2D+Advent+of+Code+2020&url=https%3A%2F%2Fadventofcode%2Ecom%2F2020%2Fday%2F15&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)\] this puzzle.
-
-(function(i,s,o,g,r,a,m){i\['GoogleAnalyticsObject'\]=r;i\[r\]=i\[r\]||function(){ (i\[r\].q=i\[r\].q||\[\]).push(arguments)},i\[r\].l=1\*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)\[0\];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-69522494-1', 'auto'); ga('set', 'anonymizeIp', true); ga('send', 'pageview');

@@ -195,9 +195,6 @@ To check that you've assembled the image correctly, multiply the IDs of the four
 
 Assemble the tiles into an image. _What do you get if you multiply together the IDs of the four corner tiles?_
 
-Your puzzle answer was `7492183537913`.
-
-The first half of this puzzle is complete! It provides one gold star: \*
 
 \--- Part Two ---
 -----------------
@@ -303,10 +300,3 @@ Determine how rough the waters are in the sea monsters' habitat by counting the 
 
 _How many `#` are not part of a sea monster?_
 
-Answer:  
-
-Although it hasn't changed, you can still [get your puzzle input](20/input).
-
-You can also \[Shareon [Twitter](https://twitter.com/intent/tweet?text=I%27ve+completed+Part+One+of+%22Jurassic+Jigsaw%22+%2D+Day+20+%2D+Advent+of+Code+2020&url=https%3A%2F%2Fadventofcode%2Ecom%2F2020%2Fday%2F20&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)\] this puzzle.
-
-(function(i,s,o,g,r,a,m){i\['GoogleAnalyticsObject'\]=r;i\[r\]=i\[r\]||function(){ (i\[r\].q=i\[r\].q||\[\]).push(arguments)},i\[r\].l=1\*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)\[0\];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-69522494-1', 'auto'); ga('set', 'anonymizeIp', true); ga('send', 'pageview');

@@ -75,9 +75,6 @@ The earliest bus you could take is bus ID `59`. It doesn't depart until timestam
 
 _What is the ID of the earliest bus you can take to the airport multiplied by the number of minutes you'll need to wait for that bus?_
 
-Your puzzle answer was `4135`.
-
-The first half of this puzzle is complete! It provides one gold star: \*
 
 \--- Part Two ---
 -----------------
@@ -145,11 +142,3 @@ Here are some other examples:
 However, with so many bus IDs in your list, surely the actual earliest timestamp will be larger than `100000000000000`!
 
 _What is the earliest timestamp such that all of the listed bus IDs depart at offsets matching their positions in the list?_
-
-Answer:  
-
-Although it hasn't changed, you can still [get your puzzle input](13/input).
-
-You can also \[Shareon [Twitter](https://twitter.com/intent/tweet?text=I%27ve+completed+Part+One+of+%22Shuttle+Search%22+%2D+Day+13+%2D+Advent+of+Code+2020&url=https%3A%2F%2Fadventofcode%2Ecom%2F2020%2Fday%2F13&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)\] this puzzle.
-
-(function(i,s,o,g,r,a,m){i\['GoogleAnalyticsObject'\]=r;i\[r\]=i\[r\]||function(){ (i\[r\].q=i\[r\].q||\[\]).push(arguments)},i\[r\].l=1\*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)\[0\];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-69522494-1', 'auto'); ga('set', 'anonymizeIp', true); ga('send', 'pageview');
