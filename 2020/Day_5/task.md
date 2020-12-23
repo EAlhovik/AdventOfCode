@@ -1,29 +1,3 @@
-[Advent of Code](/)
-===================
-
-*   [\[About\]](/2020/about)
-*   [\[Events\]](/2020/events)
-*   [\[Shop\]](https://teespring.com/stores/advent-of-code)
-*   [\[Settings\]](/2020/settings)
-*   [\[Log Out\]](/2020/auth/logout)
-
-EAlhovik 18\*
-
-          [2020](/2020)
-=======================
-
-*   [\[Calendar\]](/2020)
-*   [\[AoC++\]](/2020/support)
-*   [\[Sponsors\]](/2020/sponsors)
-*   [\[Leaderboard\]](/2020/leaderboard)
-*   [\[Stats\]](/2020/stats)
-
-Our [sponsors](/2020/sponsors) help make Advent of Code possible:
-
-[TwilioQuest](https://www.twilio.com/quest?utm_source=advent-of-code-20&utm_medium=website) - Learn to code and lead your intrepid crew on a mission to save The Cloud in TwilioQuest, a PC role-playing game inspired by classics of the 16-bit era. Free forever, and available now for Windows, Mac, and Linux.
-
-window.addEventListener('click', function(e,s,r){if(e.target.nodeName==='CODE'&&e.detail===3){s=window.getSelection();s.removeAllRanges();r=document.createRange();r.selectNodeContents(e.target);s.addRange(r);}});
-
 \--- Day 5: Binary Boarding ---
 -------------------------------
 

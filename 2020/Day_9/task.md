@@ -1,29 +1,3 @@
-[Advent of Code](/)
-===================
-
-*   [\[About\]](/2020/about)
-*   [\[Events\]](/2020/events)
-*   [\[Shop\]](https://teespring.com/stores/advent-of-code)
-*   [\[Settings\]](/2020/settings)
-*   [\[Log Out\]](/2020/auth/logout)
-
-EAlhovik 17\*
-
-   var y=[2020](/2020);
-=======================
-
-*   [\[Calendar\]](/2020)
-*   [\[AoC++\]](/2020/support)
-*   [\[Sponsors\]](/2020/sponsors)
-*   [\[Leaderboard\]](/2020/leaderboard)
-*   [\[Stats\]](/2020/stats)
-
-Our [sponsors](/2020/sponsors) help make Advent of Code possible:
-
-[American Express](https://jobs.americanexpress.com/technology) - We architect, code and ship software that makes us an essential part of our customers’ digital lives. Work with the latest tech and back the engineering community through open source. Find your place in tech on #TeamAmex.
-
-window.addEventListener('click', function(e,s,r){if(e.target.nodeName==='CODE'&&e.detail===3){s=window.getSelection();s.removeAllRanges();r=document.createRange();r.selectNodeContents(e.target);s.addRange(r);}});
-
 \--- Day 9: Encoding Error ---
 ------------------------------
 

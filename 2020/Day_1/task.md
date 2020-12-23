@@ -1,29 +1,3 @@
-[Advent of Code](/)
-===================
-
-*   [\[About\]](/2020/about)
-*   [\[Events\]](/2020/events)
-*   [\[Shop\]](https://teespring.com/stores/advent-of-code)
-*   [\[Settings\]](/2020/settings)
-*   [\[Log Out\]](/2020/auth/logout)
-
-EAlhovik 18\*
-
-   $year=[2020](/2020);
-=======================
-
-*   [\[Calendar\]](/2020)
-*   [\[AoC++\]](/2020/support)
-*   [\[Sponsors\]](/2020/sponsors)
-*   [\[Leaderboard\]](/2020/leaderboard)
-*   [\[Stats\]](/2020/stats)
-
-Our [sponsors](/2020/sponsors) help make Advent of Code possible:
-
-[Novetta](https://www.novetta.com/careers/#benefits-perks) - While Santa has elves, we have TS/SCI data scientists rapidly prototyping ML solutions...hot chocolate included. Check us out.
-
-window.addEventListener('click', function(e,s,r){if(e.target.nodeName==='CODE'&&e.detail===3){s=window.getSelection();s.removeAllRanges();r=document.createRange();r.selectNodeContents(e.target);s.addRange(r);}});
-
 \--- Day 1: Report Repair ---
 -----------------------------
 
