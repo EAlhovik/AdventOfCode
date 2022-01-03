@@ -8,7 +8,7 @@ namespace _2021
         public static void Main(string[] args)
         {
             var tasks = typeof(Program).Assembly.GetTypes()
-                .Where(p => p.Name == nameof(Day1.Task))
+                .Where(p => p.Name == nameof(Day01.Task))
                 .Where(p => !p.IsAbstract)
                 .OrderBy(p => p.Namespace);
             foreach (Type taskType in tasks)

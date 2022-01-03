@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace _2021.Day5
+namespace _2021.Day05
 {
     class Task : BaseTask<int>
     {

@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Numerics;
 
-namespace _2021.Day6
+namespace _2021.Day06
 {
     class Task : BaseTask<BigInteger>
     {
