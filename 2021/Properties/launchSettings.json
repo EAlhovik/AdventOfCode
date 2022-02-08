@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "2021": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DEVELOPMENT": "true"
+      }
+    }
+  }
+}
