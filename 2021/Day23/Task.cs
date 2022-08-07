@@ -1,0 +1,1 @@
+﻿//solution https://gist.github.com/p-a/02da9ce4a72418715670a513f6360d7c
