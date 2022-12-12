@@ -23,7 +23,6 @@ namespace _2022.Day03
                 var sharedItem = compartment1.Join(compartment2, p => p, p => p, (p, _) => p).First();
                 return priorities[sharedItem];
             }).Sum();
-
         }
 
         public override int SolvePart2(List<string> input)

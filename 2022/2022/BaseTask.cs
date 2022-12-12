@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-abstract class BaseTask<T> where T : struct
+abstract class BaseTask<T>
 {
     private readonly T expectedPart1Test;
     private readonly T expectedPart2Test;
